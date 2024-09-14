@@ -305,9 +305,10 @@ h2{
 }
 
 .block:hover{
- border: white;
+ border: 3px solid white;
  background: white var(--img) center / cover;
 }
+
 .block strong {
   margin: auto;
   font-size: 100px;
