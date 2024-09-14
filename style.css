@@ -239,7 +239,7 @@ h2{
 
 .about{
   background-color: #f8f8da;
-  height: 800px;
+  height: 500px;
 }
 
 .imgabout{
@@ -254,12 +254,12 @@ h2{
 
 .portfolio{
   background-color: #f0f0e1;
-  height: 1200px;
+  height: 800px;
 }
 
 .education{
   background-color: #ecf4f6;
-  height: 1200px;
+  height: 800px;
 }
 
 .contact{
@@ -301,7 +301,7 @@ h2{
   display: flex;
   border: 3px solid black;
   border-radius: 10px;
-  background: #79796b var(--img) center / cover;
+  background: #0000 var(--img) center / cover;
 }
 
 .block:hover{
@@ -327,6 +327,15 @@ h2{
   .ad{
     padding: 20px 80px;
   }
+  .about{
+    height: 500px;
+  }
+  .portfolio{
+    height: 800px;
+  }
+  .education{
+    height: 800px;
+  }
 }
 @media (max-width: 1000px) {
   .adaptive {
@@ -338,6 +347,15 @@ h2{
   }
   .ad{
     padding: 10px 60px;
+  }
+  .about{
+    height: 600px;
+  }
+  .portfolio{
+    height: 900px;
+  }
+  .education{
+    height: 900px;
   }
 }
 @media (max-width: 768px) {
@@ -355,6 +373,15 @@ h2{
   .ad{
     padding: 10px 40px;
   }
+  .about{
+    height: 700px;
+  }
+  .portfolio{
+    height: 1000px;
+  }
+  .education{
+    height: 1000px;
+  }
 }
 @media (max-width: 480px) {
   .adaptive {
@@ -370,5 +397,14 @@ h2{
   }
   .ad{
     padding: 10px 20px;
+  }
+  .about{
+    height: 800px;
+  }
+  .portfolio{
+    height: 1100px;
+  }
+  .education{
+    height: 1100px;
   }
 }
